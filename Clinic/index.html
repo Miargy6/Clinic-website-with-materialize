@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Remane Medical Care/HOME</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+</head>
+<body>
+  <header>
+  <nav class="white z-depth-0">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="home.html" class="brand-logo black-text">LOGO</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="">About Us</a></li>
+          <li><a class='dropdown-trigger' href='#' data-target='departments-dropdown'>Departments<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li><a href="">Support Services</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Side Nav-->
+  <ul class="sidenav" id="mobile-demo">
+    <li><a class='dropdown-trigger-sidenav' href='#' data-target='departments-dropdown-nav'>Departments<i class="material-icons right">arrow_drop_down</i></a></li>
+    <li><a href="">Support Services</a></li>
+    <li><a href="">About Us</a></li>
+    <li><a href="">Contact Us</a></li>  
+  </ul>
+
+  <!--Department DropDown nav-->
+  <ul id='departments-dropdown' class='dropdown-content'>
+    <li><a href="">Intensive Care Unit (ICU)</a></li>
+    <li><a href="">General Care</a></li>
+    <li><a href="">Cardiology</a></li>
+    <li><a href="">Radiology</a></li>
+    <li><a href="">Research</a></li>
+  </ul>
+
+  <!--Department Dropdown Sidenav-->
+  <ul id='departments-dropdown-nav' class='dropdown-content'>
+    <li><a href="">Intensive Care Unit (ICU)</a></li>
+    <li><a href="">General Care</a></li>
+    <li><a href="">Cardiology</a></li>
+    <li><a href="">Radiology</a></li>
+    <li><a href="">Research</a></li>
+  </ul>    
+  </header>
+
+
+
+
+
+    <!-- Slide header -->
+    <div id="slide-header">
+      <div class="slideshow-container">
+  
+        <!--Full-width images with number and caption text-->
+        <div class="Slides fade white">
+          <div class="numbertext">1 / 5</div>
+          <img src="img/Medical-Consulting-Service.jpg" style="width:100%">
+            <div class="text">
+              <h5 class="flow-text">Your Health is our PRIORITY.</h5>
+            </div>
+        </div>
+
+        <div class="Slides fade">
+          <div class="numbertext">2 / 5</div>
+          <img src="img/green-food.jpg" style="width:100%">
+            <div class="text">
+              <h5 class="flow-text">Improve Your Health <span class="green-text lighten 5">Live Green</span></h4>
+            </div>
+        </div>
+
+        <div class="Slides fade white">
+          <div class="numbertext">3 / 5</div>
+          <img src="img/covid.jpg" style="width:100%">
+            <div class="text">
+              <h5 class="flow-text ">Prevent from CORONA<span class="red-text">VIRUS!</span></h5>
+          </div>
+        </div>
+
+
+        <div class="Slides fade">
+          <div class="numbertext">4 / 5</div>
+          <img src="img/donate.jpg" style="width:100%">
+            <div class="text">
+              <h5 class="flow-text">Donate <span class="red-text"><b>Blood</b></span> , help <span class="blue-text">save</span> lives</h5>
+            </div>
+        </div>
+    
+        <div class="Slides fade">
+          <div class="numbertext">5 / 5</div>
+          <img src="img/More-with-less.jpg" style="width:100%">
+            <div class="text">
+              <h5 class="flow-text">Best Medicine makes life healther</h5>
+            </div>
+        </div>
+    
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <!-- The dots/circles -->
+      <div id="dot" style="text-align:center" class="hide-on-small-only">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
+    </div>
+  </div>
+
+
+<!--Content-->
+<!--floating button-->
+<div class="fixed-action-btn">
+  <a class="btn-floating btn-large light-blue">
+    <i class="large material-icons">call</i>
+  </a>
+  <ul>
+    <li><a class="btn-floating red tooltipped" data-position="left" data-delay="15" data-tooltip="Emergency Contact"><i class="material-icons">call</i></a></li>
+    <li><a class="btn-floating blue darken-1 tooltipped" data-position="left" data-delay="15" data-tooltip="Consulting Online"><i class="material-icons">duo</i></a></li>
+    <li><a class="btn-floating cyan darken-4 tooltipped" data-position="left" data-delay="15" data-tooltip="Schedule appointment"><i class="material-icons">description</i></a></li>
+    <li><a class="btn-floating green tooltipped" data-position="left" data-delay="15" data-tooltip="Find Us"><i class="material-icons">location_on</i></a></li>
+  </ul>
+</div>
+
+
+
+<!--Main Cards-->
+<div class="row indigo darken-4" id="row-main-card">
+  <div class="col s12 m6 l3">
+    <div class="card transparent z-depth-0">
+      <div class="card-content white-text">
+        <a class="material-icons">local_hospital</a>
+        <p class="card-title"><span>Emergency Care</span></p>
+        <p>Call anytime and have an Ambulance response right away.</p>
+      </div>
+      <div class="card-action">
+        <button class="btn waves-effect bt-main-card transparent z-depth-0" type="submit"><a href="" class="white-text">Green Line: 80688</a></button> 
+      </div>
+    </div>
+  </div>
+  <div class="col s12 m6 l3">
+    <div class="card transparent z-depth-0">
+      <div class="card-content white-text">
+        <a class="material-icons">location_on</a>
+        <p class="card-title"><span>Easy Find Us</span></p>
+        <p>Find our Clinic, services and pharmacy with click of a button.</p>
+      </div>
+      <div class="card-action">
+        <button class="btn waves-effect bt-main-card transparent z-depth-0" type="submit"><a href="#" class="white-text">Find Us</a></button> 
+      </div>
+    </div>
+  </div>
+  <div class="col s12 m6 l3">
+    <div class="card transparent z-depth-0">
+      <div class="card-content white-text">
+        <a class="material-icons">smartphone</a>
+        <p class="card-title"><span>Remote Care</span></p>
+        <p>Get Remote Care via call, video-conference, or text.</p>
+      </div>
+      <div class="card-action">
+        <button class="btn waves-effect bt-main-card transparent z-depth-0" type="submit"><a href="#"class="white-text">Learn More</a></button> 
+      </div>
+    </div>
+  </div>
+  <div class="col s12 m6 l3 last">
+    <div class="card transparent z-depth-0">
+      <div class="card-content white-text">
+        <a class="material-icons">schedule</a>
+        <p class="card-title"><span>Request an Appointment</span></p>
+        <p>Same-day appoitment by our line 80680 or click to request bellow.</p>
+      </div>
+      <div class="card-action">
+        <button class="btn waves-effect bt-main-card transparent z-depth-0" type="submit"><a href="#" class="white-text">Request Now</a></button> 
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--Cards information-->
+<div class="white section" id="card-info">
+  <div class="container">
+    <h6 class="center title-card-info">Get To Know our Work</h6>
+    <div class="row">
+      <div class="col s12 m6 l4">
+        <div class="card z-depth-4">
+          <div class="card-image">
+            <img src="img/general-care.jpg">
+          </div>
+          <div class="card-content center">
+            <h6>General Care</h6>
+            <h6>Dr. Wilson Thomas </h6>
+            <p><a href="#">Learn More</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l4">
+        <div class="card z-depth-4">
+          <div class="card-image">
+            <img src="img/research.jpg">
+          </div>
+          <div class="card-content center">
+            <h6>Research</h6>
+            <h6>Dr. Angela Scott</h6>
+            <p>Every Help is Welcome <span><a href="">Checkout</a></span></p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 offset-m3 l4">
+        <div class="card z-depth-4">
+          <div class="card-image">
+            <img src="img/remote-care.jpg">
+          </div>
+          <div class="card-content center">
+            <h6>Remote Care</h6>
+            <h6>Dr. Morales Torres </h6>
+            <p>Contact now <span><a href="">Video and Phone visits.</a></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--Our Mission-->
+<div class="parallax">
+<div id="our-mission" class=" backcolor">
+  <div class="container center">
+    <h5>Our Mission</h5>
+    <h6>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h6>
+    <p class="flow-text white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sint voluptatum adipisci beatae, incidunt quod officia culpa voluptas exercitationem voluptate a maxime maiores, velit sunt nihil. Molestiae quod adipisci dolorum.
+    Tempore, sequi dolores, facere eveniet quis, veniam ipsam qui esse nisi velit cum! Laborum tenetur necessitatibus temporibus eum nulla sed delectus molestiae sequi vel? Quibusdam quod nemo ullam architecto. Dolorum.
+    </p>
+  </div>
+</div>
+</div>
+
+<!--Latest from our clinic-->
+<div class="container" id="latest-news">
+  <div class="row">
+    <h6 class="center title-card-info">Latest from our Blog</h6>
+    <div class="col s12 m6 l4">
+      <div class="card z-depth-0">
+        <figure>
+            <img src="img/general-care.jpg">
+            <figcaption>
+            <h5><a href="" target="_blank">FaceBook</a></h5>
+            <p class="truncate">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="col s12 m6 l4">
+      <div class="card z-depth-0">
+        <figure>
+          <img src="img/general-care.jpg">
+          <figcaption>
+              <h5><a href="" target="_blank">LinkedIn</a></h5>
+              <p class="truncate">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="col s12 m6 offset-m3 l4">
+      <div class="card z-depth-0">
+        <figure>
+          <img src="img/general-care.jpg">
+          <figcaption>
+            <h5><a href="" target="_blank">Twitter</a></h5>
+            <p class="truncate">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  <!--Footer-->
+  <footer class="page-footer grey darken-3">
+    <div class="container">
+      <div class="row row-footer" >
+        <div class="col s12 l4">
+          <h6 class="white-text contact-footer">Contact Us: <span><a href="" class="light-blue-text">Online</a></span></h6>
+        </div>
+        <div class="col s12 l4">
+          <h6><a href="" class="white-text">Get information about Coronavirus Disease</a></h6>
+        </div>
+        <div class="col s12 l4 phone-footer">
+          <h6>Green Line: <span class="light-blue-text">80688</span></h6>
+        </div>
+        
+      </div>
+
+      <div class="row">
+        <div class="col l4 s12 m4">
+          <h6 class="light-blue-text">CLINIC GERAL INFO</h6>
+          <ul class="footer-links">
+            <li><a class="grey-text text-lighten-3" href="#!">About Us</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Health insurance program</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Terms & Conditions</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Privacy Policy</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Non-Discrimination Notice</a></li>
+          </ul>
+        </div>
+        <div class="col s12 m4 l4">
+          <h6 class="light-blue-text">PARTNER SITES</h6>
+          <ul class="footer-links">
+            <li><a class="grey-text text-lighten-3" href="#!">Remane Foundation</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Pharmacy Green Cross</a></li>
+          </ul>
+        </div>
+        <div class="col s12 l4">
+          <h6 class="light-blue-text">Get in Touch by Social Media</h6>
+          <ul class="footer-links social-button">
+            <li>
+              <a class="bt" href="#">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a class="bt" href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a class="bt" href="#">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+            <li>
+              <a class="bt" href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a class="bt" href="#">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright center-align">
+      <div class="container">
+      &copy; Copyright 2020 Clinic Mussagy Remane
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+  
+
+
+
+
+
+
+  <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
+  <script src="https://kit.fontawesome.com/98137b7b07.js" crossorigin="anonymous"></script>
+  <script src="js/materialize.min.js"></script>
+  <script src="js/custm.js"></script>
+  <script>
+  </script>
+</body>
+</html>
