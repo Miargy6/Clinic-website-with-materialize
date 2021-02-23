@@ -298,6 +298,22 @@ padding-left: 0.2rem;
 
 
 /*Latest from our clinic*/
+#latest-news figure{
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#latest-news figure img{
+  margin: 0 0 -0.4rem;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  
+}
+
 #latest-news figure figcaption{
   position: absolute;
   bottom: 0%;
@@ -312,23 +328,6 @@ padding-left: 0.2rem;
 #latest-news figure figcaption a{
   color: white;
 }
-
-#latest-news figure{
-  position: relative;
-  width: 100%;
-  height: auto;
-  margin: 0;
-  padding: 0;
-}
-#latest-news figure img{
-  box-sizing: border-box;
-  margin: 0 0 -0.4rem;
-  padding: 0;
-  position: relative;
-  width: 100%;
-  height: auto;
-}
-
 
 
 
